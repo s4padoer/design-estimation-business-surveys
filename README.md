@@ -10,7 +10,7 @@ The codes are arranged according to the chapters that the algorithms/ simulation
 
 - Monte-Carlo Expectation Maximization algorithm for survey weighted (non-)Gaussian regression models (R Package wmm)
 - Simulation study for testing the algorithm under (non-)informative survey designs
-- Application to business survey data
+
           
 ***GVFs in Business Surveys (Chapter 3)*** 
 
@@ -21,4 +21,10 @@ The codes are arranged according to the chapters that the algorithms/ simulation
 - Modified and dynamic batch self-organizing map algorithm with adaptive distances
 - Density estimator built upon the modified SOM algorithm
 - Simulation study to compare the density estimator to Gaussian mixtures and kernel density estimators
-- Application to business survey data
+
+The applications to real world survey data are comprised in an additional folder called ***application_beeps*** as the real world data stems from the World Bank's Business Environment and Enterprise Performance Surveys (BEEPS). The data are from Central Asian and Eastern European countries (cf. the thesis for a detailed data set description). The folder includes 
+
+- Application of the MCEM to business survey data (the impact of the business leader's gender on the firm's access to finance)
+- Application of the density estimator based on SOMs on the bivariate density of total turnover in the current year and three years ago. The data has the advantage that it assuminglyl correlated and skewed, which imposes challenges to density estimators. 
+
+The folder ***lib*** contains the compilation and source files for the ***wmm*** ***R***-package (owner and maintainer: Patricia Dörr), which was created for an easier use of the proposed MCEM algorithm. 
