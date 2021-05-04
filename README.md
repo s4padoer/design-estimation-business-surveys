@@ -28,3 +28,5 @@ The applications to real world survey data are comprised in an additional folder
 - Application of the density estimator based on SOMs on the bivariate density of total turnover in the current year and three years ago. The data has the advantage that it assuminglyl correlated and skewed, which imposes challenges to density estimators. 
 
 The folder ***lib*** contains the compilation and source files for the   ***wmm***       R   -package (owner and maintainer: Patricia Dörr), which was created for an easier use of the proposed MCEM algorithm. 
+
+***NOTE:*** Due to a formatting error resulting from an update of the depending    R   -package    lme4   the package does not return correct estimates. A revised package correcting the formatting error is provided. However, for better accountability, the original version is given here as well. 
