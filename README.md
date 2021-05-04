@@ -29,4 +29,6 @@ The applications to real world survey data are comprised in an additional folder
 
 The folder ***lib*** contains the compilation and source files for the   ***wmm***       R   -package (owner and maintainer: Patricia Dörr), which was created for an easier use of the proposed MCEM algorithm. 
 
+The    dta   file for the BEEPS and some of the stored simulation results are not uploaded due to upload capacities. However, they are available upon request.
+
 ***NOTE:*** Due to a formatting error resulting from an update of the depending    R   -package    lme4   the package does not return correct estimates. A revised package correcting the formatting error is provided. However, for better accountability, the original version is given here as well. 
